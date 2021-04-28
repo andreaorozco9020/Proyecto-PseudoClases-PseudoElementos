@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div class="descuento">
+            <p class="texto-descuento">20% de descuento en todos los productos!</p>
+        </div>
+        <div class="tienda">
+            <img src="img/logo.png" alt="logo">
+            <div class="nombre-tienda">
+
+                <h1>Nombre Tienda</h1>
+            </div>
+            <nav>
+                <div class="navegacion">
+                    <a href="index.html">Contacto</a>
+                    <a href="contacto.html">Registrame</a>
+                    <a href="mensaje.html">Ingresar</a>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="formulario2">
+            <div class="añadi">
+                <h2>Añadí tu super!</h2>
+            </div>
+            <div class="agrega">
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="">
+                <label class="text-nombre" for="nombre" >Nombre</label>
+                <br>
+                <input class="input-nombre" type="text" id="nombre" placeholder="Nombre" required>
+
+                <label class="text-especie" for="especie">Especie</label>
+                <br>
+                <select name="Especie" id="especie" class="select-especie">
+                    <option value="especie"> Especie </option>
+
+
+                    <input class="input-fecha" type="date" id="fecha">
+                    <input class="input-archivos1" type="file" name="archivossubidos[]" multiple>
+                    <br>
+                    <textarea class="textarea-descripcion" name="Descripcion" placeholder="Descripcion"> </textarea>
+                    <label class="poderes">Poderes</label>
+
+                    <label class="text-votar" for="votar">Votar</label>
+                    <input class="votar" type="checkbox" name="votar" id="votar">
+
+                    <label class="text-super-inteligencia" for="super-inteligencia">SuperInteligencia</label>
+                    <input class="super-inteligencia" type="checkbox" name="super-inteligencia" id="super-inteligencia">
+
+                    <label class="text-vista-rayo-laser" for="vista-rayo-laser">Vista de rayo láser</label>
+                    <input class="vista-rayo-laser" type="checkbox" name="vista-rayo-laser" id=vista-rayo-laser>
+
+                    <label class="text-billetera-gorda" for="billetera-gorda">Billetera gorda</label>
+                    <input class="billetera-gorda" type="checkbox" name="billetera-gorda" id="billetera-gorda">
+                    <div class="hr">
+                    </div>
+                    <label class="text-tipo-persona">Tipo persona</label>
+
+                    <label class="text-heroe-heroina" for="heroe-heroina">Héroe / Heroina</label>
+                    <input class="heroe-heroina" type="radio" name="persona" id="heroe-heroina">
+
+                    <label class="text-villano-villana" for="villano">Villano / villana</label>
+                    <input class="villano-villana" type="radio" name="persona" id="villano">
+                    <button class="boton-añadirr">Añadir</button>
+
+
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="pie">
+            <h3>Todos los derechos reservados a FRONT END 1</h3>
+        </div>
+    </footer>
+</body>
+
+</html>
